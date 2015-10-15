@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		A297CAA71BD0413000EA685F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297CAA61BD0413000EA685F /* AppDelegate.swift */; };
-		A297CAA91BD0413000EA685F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297CAA81BD0413000EA685F /* ViewController.swift */; };
+		A297CAA91BD0413000EA685F /* ReviewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297CAA81BD0413000EA685F /* ReviewPostViewController.swift */; };
 		A297CAAC1BD0413000EA685F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A297CAAA1BD0413000EA685F /* Main.storyboard */; };
 		A297CAAE1BD0413000EA685F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A297CAAD1BD0413000EA685F /* Assets.xcassets */; };
 		A297CAB11BD0413000EA685F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A297CAAF1BD0413000EA685F /* LaunchScreen.storyboard */; };
 		A297CABC1BD0413000EA685F /* AspectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297CABB1BD0413000EA685F /* AspectTests.swift */; };
 		A297CAC71BD0413000EA685F /* AspectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297CAC61BD0413000EA685F /* AspectUITests.swift */; };
+		A297CAD51BD044F500EA685F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297CAD41BD044F500EA685F /* SignUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A297CAD71BD0450400EA685F /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297CAD61BD0450400EA685F /* LogInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A297CAD91BD0451900EA685F /* AllWeeksCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297CAD81BD0451900EA685F /* AllWeeksCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A297CADB1BD0453600EA685F /* SingleWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297CADA1BD0453600EA685F /* SingleWeekViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A297CADD1BD0454900EA685F /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297CADC1BD0454900EA685F /* TakePhotoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		A297CAA31BD0413000EA685F /* Aspect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aspect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A297CAA61BD0413000EA685F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A297CAA81BD0413000EA685F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A297CAA81BD0413000EA685F /* ReviewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewPostViewController.swift; sourceTree = "<group>"; };
 		A297CAAB1BD0413000EA685F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A297CAAD1BD0413000EA685F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A297CAB01BD0413000EA685F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		A297CAC21BD0413000EA685F /* AspectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AspectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A297CAC61BD0413000EA685F /* AspectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectUITests.swift; sourceTree = "<group>"; };
 		A297CAC81BD0413000EA685F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A297CAD41BD044F500EA685F /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A297CAD61BD0450400EA685F /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		A297CAD81BD0451900EA685F /* AllWeeksCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllWeeksCollectionViewController.swift; sourceTree = "<group>"; };
+		A297CADA1BD0453600EA685F /* SingleWeekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleWeekViewController.swift; sourceTree = "<group>"; };
+		A297CADC1BD0454900EA685F /* TakePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +107,13 @@
 		A297CAA51BD0413000EA685F /* Aspect */ = {
 			isa = PBXGroup;
 			children = (
+				A297CAD81BD0451900EA685F /* AllWeeksCollectionViewController.swift */,
 				A297CAA61BD0413000EA685F /* AppDelegate.swift */,
-				A297CAA81BD0413000EA685F /* ViewController.swift */,
+				A297CAD61BD0450400EA685F /* LogInViewController.swift */,
+				A297CAA81BD0413000EA685F /* ReviewPostViewController.swift */,
+				A297CAD41BD044F500EA685F /* SignUpViewController.swift */,
+				A297CADA1BD0453600EA685F /* SingleWeekViewController.swift */,
+				A297CADC1BD0454900EA685F /* TakePhotoViewController.swift */,
 				A297CAAA1BD0413000EA685F /* Main.storyboard */,
 				A297CAAD1BD0413000EA685F /* Assets.xcassets */,
 				A297CAAF1BD0413000EA685F /* LaunchScreen.storyboard */,
@@ -255,7 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A297CAA91BD0413000EA685F /* ViewController.swift in Sources */,
+				A297CADB1BD0453600EA685F /* SingleWeekViewController.swift in Sources */,
+				A297CAD71BD0450400EA685F /* LogInViewController.swift in Sources */,
+				A297CAD51BD044F500EA685F /* SignUpViewController.swift in Sources */,
+				A297CAA91BD0413000EA685F /* ReviewPostViewController.swift in Sources */,
+				A297CAD91BD0451900EA685F /* AllWeeksCollectionViewController.swift in Sources */,
+				A297CADD1BD0454900EA685F /* TakePhotoViewController.swift in Sources */,
 				A297CAA71BD0413000EA685F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
