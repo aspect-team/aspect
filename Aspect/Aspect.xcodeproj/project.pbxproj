@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69D3E45A1BD054DC00DBC9B9 /* Nate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D3E4581BD054DC00DBC9B9 /* Nate.storyboard */; };
 		69E671F01BD04FC200233BA0 /* AllWeeksFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E671EF1BD04FC200233BA0 /* AllWeeksFeedViewController.swift */; };
 		A297CAA71BD0413000EA685F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297CAA61BD0413000EA685F /* AppDelegate.swift */; };
 		A297CAA91BD0413000EA685F /* ReviewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297CAA81BD0413000EA685F /* ReviewPostViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69D3E4591BD054DC00DBC9B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Nate.storyboard; sourceTree = "<group>"; };
 		69E671EF1BD04FC200233BA0 /* AllWeeksFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllWeeksFeedViewController.swift; sourceTree = "<group>"; };
 		A297CAA31BD0413000EA685F /* Aspect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aspect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A297CAA61BD0413000EA685F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				A297CADA1BD0453600EA685F /* SingleWeekViewController.swift */,
 				A297CADC1BD0454900EA685F /* TakePhotoViewController.swift */,
 				A297CAAA1BD0413000EA685F /* Main.storyboard */,
+				69D3E4581BD054DC00DBC9B9 /* Nate.storyboard */,
 				A297CAAD1BD0413000EA685F /* Assets.xcassets */,
 				A297CAAF1BD0413000EA685F /* LaunchScreen.storyboard */,
 				A297CAB21BD0413000EA685F /* Info.plist */,
@@ -249,6 +252,7 @@
 			files = (
 				A297CAB11BD0413000EA685F /* LaunchScreen.storyboard in Resources */,
 				A297CAAE1BD0413000EA685F /* Assets.xcassets in Resources */,
+				69D3E45A1BD054DC00DBC9B9 /* Nate.storyboard in Resources */,
 				A297CAAC1BD0413000EA685F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +321,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		69D3E4581BD054DC00DBC9B9 /* Nate.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69D3E4591BD054DC00DBC9B9 /* Base */,
+			);
+			name = Nate.storyboard;
+			sourceTree = "<group>";
+		};
 		A297CAAA1BD0413000EA685F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
