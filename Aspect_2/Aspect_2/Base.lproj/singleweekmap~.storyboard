@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome Splash View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="WelcomeSplashViewController" id="BYZ-38-t0r" customClass="WelcomeSplashViewController" customModule="Aspect_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99215692280000001" green="0.87450987099999999" blue="0.20000001789999999" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162.66666666666666" y="337.48666666666668"/>
+        </scene>
+        <!--Add Post View Controller-->
+        <scene sceneID="MOA-7p-gK3">
+            <objects>
+                <viewController storyboardIdentifier="AddPostViewController" id="33x-vz-DiA" customClass="AddPostViewController" customModule="Aspect_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DNg-D0-1v2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.12515419407894737" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1FI-pe-wnW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="339"/>
+        </scene>
+        <!--Single Week Map View Controller-->
+        <scene sceneID="Ioz-q9-qgo">
+            <objects>
+                <viewController storyboardIdentifier="SingleWeekMapViewController" id="brc-Jy-Td1" customClass="SingleWeekMapViewController" customModule="Aspect_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T9i-rI-jKS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.27197265625" green="0.17215768914473681" blue="0.46178556743421051" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T45-xI-0yc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2596" y="339"/>
+        </scene>
+        <!--Edit Post View Controller-->
+        <scene sceneID="XvW-ej-crj">
+            <objects>
+                <viewController storyboardIdentifier="EditPostViewController" id="sE6-Cn-wM6" customClass="EditPostViewController" customModule="Aspect_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JCl-iI-xml">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.57475842927631571" green="0.17215768914473678" blue="0.46178556743421051" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hv5-cW-2Ju" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2936" y="338"/>
+        </scene>
+        <!--Single Week List View Controller-->
+        <scene sceneID="W5U-E5-M5L">
+            <objects>
+                <viewController storyboardIdentifier="SingleWeekListViewController" id="usp-Ft-6Qh" customClass="SingleWeekListViewController" customModule="Aspect_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Pe-vY-iV3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.69508120888157898" blue="0.46178556743421051" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bHK-Il-HYW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2245" y="340"/>
+        </scene>
+        <!--AllWeekViewController-->
+        <scene sceneID="KEN-ce-OmC">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="AllWeekViewController" storyboardName="Nate" referencedIdentifier="AllWeekViewController" id="pFa-bM-CUk" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lpT-5U-BiK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1542.5" y="345"/>
+        </scene>
+        <!--SignUpViewController-->
+        <scene sceneID="IH3-7N-9Va">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="SignUpViewController" storyboardName="Cameron" referencedIdentifier="SignUpViewController" id="nr2-8w-Ofy" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EJM-LC-tMt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="506" y="340"/>
+        </scene>
+        <!--OnBoardingViewController-->
+        <scene sceneID="7WN-Go-OJ0">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="OnBoardingViewController" storyboardName="Cameron" referencedIdentifier="OnBoardingViewController" id="fpl-Si-JpG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BfF-db-9VJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1209" y="340"/>
+        </scene>
+        <!--LogInViewController-->
+        <scene sceneID="HWD-gH-wQ8">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="LogInViewController" storyboardName="Cameron" referencedIdentifier="LogInViewController" id="srl-yn-Fk5" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QKA-1F-fB6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="862" y="340"/>
+        </scene>
+    </scenes>
+</document>
