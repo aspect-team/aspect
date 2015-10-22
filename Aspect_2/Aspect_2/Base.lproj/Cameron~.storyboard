@@ -18,6 +18,48 @@
             </objects>
             <point key="canvasLocation" x="162.66666666666666" y="337.48666666666668"/>
         </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="26e-FZ-4sY">
+            <objects>
+                <viewController storyboardIdentifier="SignUpViewController" id="s8E-Zl-DxF" customClass="SignUpViewController" customModule="Aspect_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cta-fn-Inb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.31471011510000002" blue="0.68837376640000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SzU-nk-Y3n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="506" y="340"/>
+        </scene>
+        <!--Log In View Controller-->
+        <scene sceneID="HTQ-aJ-pve">
+            <objects>
+                <viewController storyboardIdentifier="LogInViewController" id="Evs-a4-BAy" customClass="LogInViewController" customModule="Aspect_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vsG-lz-mfw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="30v-hh-Ppd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="862" y="340"/>
+        </scene>
+        <!--On Boarding View Controller-->
+        <scene sceneID="di7-H8-yY5">
+            <objects>
+                <viewController storyboardIdentifier="OnBoardingViewController" id="ApH-Nc-bUy" customClass="OnBoardingViewController" customModule="Aspect_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Wa-QR-JxC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.19808799342105263" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="16T-gR-TAj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1209" y="340"/>
+        </scene>
         <!--Add Post View Controller-->
         <scene sceneID="MOA-7p-gK3">
             <objects>
@@ -31,6 +73,20 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1FI-pe-wnW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1892" y="339"/>
+        </scene>
+        <!--Single Week Map View Controller-->
+        <scene sceneID="Ioz-q9-qgo">
+            <objects>
+                <viewController storyboardIdentifier="SingleWeekMapViewController" id="brc-Jy-Td1" customClass="SingleWeekMapViewController" customModule="Aspect_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T9i-rI-jKS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.27197265625" green="0.17215768914473681" blue="0.46178556743421051" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T45-xI-0yc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2596" y="339"/>
         </scene>
         <!--Edit Post View Controller-->
         <scene sceneID="XvW-ej-crj">
@@ -67,38 +123,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lpT-5U-BiK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1542.5" y="345"/>
-        </scene>
-        <!--SignUpViewController-->
-        <scene sceneID="IH3-7N-9Va">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="SignUpViewController" storyboardName="Cameron" referencedIdentifier="SignUpViewController" id="nr2-8w-Ofy" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EJM-LC-tMt" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="506" y="340"/>
-        </scene>
-        <!--OnBoardingViewController-->
-        <scene sceneID="7WN-Go-OJ0">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="OnBoardingViewController" storyboardName="Cameron" referencedIdentifier="OnBoardingViewController" id="fpl-Si-JpG" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BfF-db-9VJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1209" y="340"/>
-        </scene>
-        <!--LogInViewController-->
-        <scene sceneID="HWD-gH-wQ8">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="LogInViewController" storyboardName="Cameron" referencedIdentifier="LogInViewController" id="srl-yn-Fk5" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QKA-1F-fB6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="862" y="340"/>
-        </scene>
-        <!--SingleWeekMapViewController-->
-        <scene sceneID="vTa-0p-KXm">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="SingleWeekMapViewController" storyboardName="singleweekmap" referencedIdentifier="SingleWeekMapViewController" id="jVT-8A-xC1" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ykE-T2-mQ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2596" y="339"/>
         </scene>
     </scenes>
 </document>
